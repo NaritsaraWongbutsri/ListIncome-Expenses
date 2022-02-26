@@ -1,0 +1,17 @@
+C:\Users\TR\Documents\GitHub\ListIncome-Expenses\QuizAssigment\QuizAssigment\bin\Debug\net6.0-windows\QuizAssigment.exe
+C:\Users\TR\Documents\GitHub\ListIncome-Expenses\QuizAssigment\QuizAssigment\bin\Debug\net6.0-windows\QuizAssigment.deps.json
+C:\Users\TR\Documents\GitHub\ListIncome-Expenses\QuizAssigment\QuizAssigment\bin\Debug\net6.0-windows\QuizAssigment.runtimeconfig.json
+C:\Users\TR\Documents\GitHub\ListIncome-Expenses\QuizAssigment\QuizAssigment\bin\Debug\net6.0-windows\QuizAssigment.dll
+C:\Users\TR\Documents\GitHub\ListIncome-Expenses\QuizAssigment\QuizAssigment\bin\Debug\net6.0-windows\QuizAssigment.pdb
+C:\Users\TR\Documents\GitHub\ListIncome-Expenses\QuizAssigment\QuizAssigment\obj\Debug\net6.0-windows\QuizAssigment.csproj.AssemblyReference.cache
+C:\Users\TR\Documents\GitHub\ListIncome-Expenses\QuizAssigment\QuizAssigment\obj\Debug\net6.0-windows\QuizAssigment.Form1.resources
+C:\Users\TR\Documents\GitHub\ListIncome-Expenses\QuizAssigment\QuizAssigment\obj\Debug\net6.0-windows\QuizAssigment.csproj.GenerateResource.cache
+C:\Users\TR\Documents\GitHub\ListIncome-Expenses\QuizAssigment\QuizAssigment\obj\Debug\net6.0-windows\QuizAssigment.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TR\Documents\GitHub\ListIncome-Expenses\QuizAssigment\QuizAssigment\obj\Debug\net6.0-windows\QuizAssigment.AssemblyInfoInputs.cache
+C:\Users\TR\Documents\GitHub\ListIncome-Expenses\QuizAssigment\QuizAssigment\obj\Debug\net6.0-windows\QuizAssigment.AssemblyInfo.cs
+C:\Users\TR\Documents\GitHub\ListIncome-Expenses\QuizAssigment\QuizAssigment\obj\Debug\net6.0-windows\QuizAssigment.csproj.CoreCompileInputs.cache
+C:\Users\TR\Documents\GitHub\ListIncome-Expenses\QuizAssigment\QuizAssigment\obj\Debug\net6.0-windows\QuizAssigment.dll
+C:\Users\TR\Documents\GitHub\ListIncome-Expenses\QuizAssigment\QuizAssigment\obj\Debug\net6.0-windows\refint\QuizAssigment.dll
+C:\Users\TR\Documents\GitHub\ListIncome-Expenses\QuizAssigment\QuizAssigment\obj\Debug\net6.0-windows\QuizAssigment.pdb
+C:\Users\TR\Documents\GitHub\ListIncome-Expenses\QuizAssigment\QuizAssigment\obj\Debug\net6.0-windows\QuizAssigment.genruntimeconfig.cache
+C:\Users\TR\Documents\GitHub\ListIncome-Expenses\QuizAssigment\QuizAssigment\obj\Debug\net6.0-windows\ref\QuizAssigment.dll

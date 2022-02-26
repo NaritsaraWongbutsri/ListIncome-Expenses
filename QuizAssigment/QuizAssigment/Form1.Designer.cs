@@ -38,16 +38,17 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.textBoxList = new System.Windows.Forms.TextBox();
-            this.textBoxQuantity = new System.Windows.Forms.TextBox();
+            this.textBoxIncome = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBoxExpenses = new System.Windows.Forms.TextBox();
-            this.textBoxRevenue = new System.Windows.Forms.TextBox();
+            this.textBoxSumExpenses = new System.Windows.Forms.TextBox();
+            this.textBoxSumIncome = new System.Windows.Forms.TextBox();
             this.buttonAdd = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.textBoxExpenses = new System.Windows.Forms.TextBox();
+            this.buttonSave = new System.Windows.Forms.Button();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -102,14 +103,14 @@
             // openToolStripMenuItem
             // 
             this.openToolStripMenuItem.Name = "openToolStripMenuItem";
-            this.openToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.openToolStripMenuItem.Size = new System.Drawing.Size(103, 22);
             this.openToolStripMenuItem.Text = "Open";
             this.openToolStripMenuItem.Click += new System.EventHandler(this.openToolStripMenuItem_Click);
             // 
             // saveToolStripMenuItem
             // 
             this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
-            this.saveToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.saveToolStripMenuItem.Size = new System.Drawing.Size(103, 22);
             this.saveToolStripMenuItem.Text = "Save";
             // 
             // label4
@@ -126,29 +127,18 @@
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(46, 85);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(37, 15);
+            this.label5.Size = new System.Drawing.Size(80, 15);
             this.label5.TabIndex = 5;
-            this.label5.Text = "จำนวน";
+            this.label5.Text = "จำนวนเงินรายรับ";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(46, 125);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(40, 15);
+            this.label6.Size = new System.Drawing.Size(85, 15);
             this.label6.TabIndex = 6;
-            this.label6.Text = "ประเภท";
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "รายรับ",
-            "รายจ่าย"});
-            this.comboBox1.Location = new System.Drawing.Point(138, 122);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 23);
-            this.comboBox1.TabIndex = 9;
+            this.label6.Text = "จำนวนเงินรายจ่าย";
             // 
             // textBoxList
             // 
@@ -157,20 +147,20 @@
             this.textBoxList.Size = new System.Drawing.Size(121, 23);
             this.textBoxList.TabIndex = 10;
             // 
-            // textBoxQuantity
+            // textBoxIncome
             // 
-            this.textBoxQuantity.Location = new System.Drawing.Point(138, 82);
-            this.textBoxQuantity.Name = "textBoxQuantity";
-            this.textBoxQuantity.Size = new System.Drawing.Size(121, 23);
-            this.textBoxQuantity.TabIndex = 11;
+            this.textBoxIncome.Location = new System.Drawing.Point(138, 82);
+            this.textBoxIncome.Name = "textBoxIncome";
+            this.textBoxIncome.Size = new System.Drawing.Size(121, 23);
+            this.textBoxIncome.TabIndex = 11;
             // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.label8);
             this.groupBox1.Controls.Add(this.label7);
-            this.groupBox1.Controls.Add(this.textBoxExpenses);
-            this.groupBox1.Controls.Add(this.textBoxRevenue);
-            this.groupBox1.Location = new System.Drawing.Point(59, 204);
+            this.groupBox1.Controls.Add(this.textBoxSumExpenses);
+            this.groupBox1.Controls.Add(this.textBoxSumIncome);
+            this.groupBox1.Location = new System.Drawing.Point(52, 216);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(200, 100);
             this.groupBox1.TabIndex = 12;
@@ -195,28 +185,29 @@
             this.label7.TabIndex = 2;
             this.label7.Text = "รายรับ";
             // 
-            // textBoxExpenses
+            // textBoxSumExpenses
             // 
-            this.textBoxExpenses.Location = new System.Drawing.Point(73, 64);
-            this.textBoxExpenses.Name = "textBoxExpenses";
-            this.textBoxExpenses.Size = new System.Drawing.Size(100, 23);
-            this.textBoxExpenses.TabIndex = 1;
+            this.textBoxSumExpenses.Location = new System.Drawing.Point(73, 64);
+            this.textBoxSumExpenses.Name = "textBoxSumExpenses";
+            this.textBoxSumExpenses.Size = new System.Drawing.Size(100, 23);
+            this.textBoxSumExpenses.TabIndex = 1;
             // 
-            // textBoxRevenue
+            // textBoxSumIncome
             // 
-            this.textBoxRevenue.Location = new System.Drawing.Point(73, 28);
-            this.textBoxRevenue.Name = "textBoxRevenue";
-            this.textBoxRevenue.Size = new System.Drawing.Size(100, 23);
-            this.textBoxRevenue.TabIndex = 0;
+            this.textBoxSumIncome.Location = new System.Drawing.Point(73, 28);
+            this.textBoxSumIncome.Name = "textBoxSumIncome";
+            this.textBoxSumIncome.Size = new System.Drawing.Size(100, 23);
+            this.textBoxSumIncome.TabIndex = 0;
             // 
             // buttonAdd
             // 
-            this.buttonAdd.Location = new System.Drawing.Point(153, 160);
+            this.buttonAdd.Location = new System.Drawing.Point(152, 146);
             this.buttonAdd.Name = "buttonAdd";
             this.buttonAdd.Size = new System.Drawing.Size(93, 27);
             this.buttonAdd.TabIndex = 13;
             this.buttonAdd.Text = "Add";
             this.buttonAdd.UseVisualStyleBackColor = true;
+            this.buttonAdd.Click += new System.EventHandler(this.buttonAdd_Click);
             // 
             // dataGridView1
             // 
@@ -232,33 +223,52 @@
             this.dataGridView1.Size = new System.Drawing.Size(434, 237);
             this.dataGridView1.TabIndex = 14;
             // 
+            // textBoxExpenses
+            // 
+            this.textBoxExpenses.Location = new System.Drawing.Point(138, 117);
+            this.textBoxExpenses.Name = "textBoxExpenses";
+            this.textBoxExpenses.Size = new System.Drawing.Size(121, 23);
+            this.textBoxExpenses.TabIndex = 15;
+            // 
+            // buttonSave
+            // 
+            this.buttonSave.Location = new System.Drawing.Point(138, 179);
+            this.buttonSave.Name = "buttonSave";
+            this.buttonSave.Size = new System.Drawing.Size(121, 31);
+            this.buttonSave.TabIndex = 16;
+            this.buttonSave.Text = "Save";
+            this.buttonSave.UseVisualStyleBackColor = true;
+            // 
             // Column1
             // 
             this.Column1.HeaderText = "รายการ";
             this.Column1.Name = "Column1";
-            this.Column1.Width = 200;
+            this.Column1.Width = 150;
             // 
             // Column2
             // 
-            this.Column2.HeaderText = "จำนวน";
+            this.Column2.HeaderText = "จำนวนเงินรายรับ";
             this.Column2.Name = "Column2";
+            this.Column2.Width = 150;
             // 
             // Column3
             // 
-            this.Column3.HeaderText = "ประเภท";
+            this.Column3.HeaderText = "จำนวนเงินรายจ่าย";
             this.Column3.Name = "Column3";
+            this.Column3.Width = 150;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 324);
+            this.Controls.Add(this.buttonSave);
+            this.Controls.Add(this.textBoxExpenses);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.buttonAdd);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.textBoxQuantity);
+            this.Controls.Add(this.textBoxIncome);
             this.Controls.Add(this.textBoxList);
-            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -291,16 +301,17 @@
         private Label label4;
         private Label label5;
         private Label label6;
-        private ComboBox comboBox1;
         private TextBox textBoxList;
-        private TextBox textBoxQuantity;
+        private TextBox textBoxIncome;
         private GroupBox groupBox1;
         private Label label8;
         private Label label7;
-        private TextBox textBoxExpenses;
-        private TextBox textBoxRevenue;
+        private TextBox textBoxSumExpenses;
+        private TextBox textBoxSumIncome;
         private Button buttonAdd;
         private DataGridView dataGridView1;
+        private TextBox textBoxExpenses;
+        private Button buttonSave;
         private DataGridViewTextBoxColumn Column1;
         private DataGridViewTextBoxColumn Column2;
         private DataGridViewTextBoxColumn Column3;
